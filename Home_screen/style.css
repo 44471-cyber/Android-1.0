@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+    background: url("../Android_1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.apps {
+    display: flex;
+    align-items: center;
+    gap: 150px;
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+}
+.apps p {
+    background-color: rgb(50, 50, 50);
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    padding: 0 5px;
+    text-shadow: 1px 1px black;
+}
+.apps img:active {
+    background-color: rgb(255, 140, 0);
+    border-radius: 10px;
+}
