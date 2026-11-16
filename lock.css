@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+    background-color: black;
+}
+.info {
+    background-color: rgb(60, 60, 60);
+    color: rgb(200, 200, 200);
+    text-align: center;
+    border: 3px solid white;
+    transform: translateY(180px);
+    border-radius: 10px;
+}
+.info h2 {
+    font-size: 3rem;
+}
+.info h3 {
+    font-size: 1.6rem;
+}
+.info h2, .info h3 {
+    font-weight: normal;
+}
+.info hr {
+    width: 330px;
+}
+.info p {
+    font-size: 1.2rem;
+}

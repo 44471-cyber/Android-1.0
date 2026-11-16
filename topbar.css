@@ -1,0 +1,12 @@
+.topBar {
+    position: fixed;
+    background: linear-gradient(to bottom, white, lightgrey);
+    width: 100%;
+    top: 0;
+}
+.topBar p {
+    text-align: right;
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-right: 15px;
+}
