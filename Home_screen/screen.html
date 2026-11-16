@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="../unisec.css">
+        <link rel="stylesheet" href="../topbar.css">
+        <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+        <title>Android 1.0</title>
+    </head>
+    <body>
+        <nav class="topBar">
+            <p class="time">??:??</p>
+        </nav>
+        <div class="apps">
+            <div class="dialer" onclick="gotoPage('dialer')">
+                <img src="../App_icons/dialer.png" draggable="false">
+                <p>Dialer</p>
+            </div>
+            <div class="contacts" onclick="gotoPage('contacts')">
+                <img src="../App_icons/contacts.png" draggable="false">
+                <p>Contacts</p>
+            </div>
+            <div class="browser" onclick="gotoPage('browser')">
+                <img src="../App_icons/browser.png" width="72" draggable="false">
+                <p>Browser</p>
+            </div>
+            <div class="maps" onclick="gotoPage('maps')">
+                <img src="../App_icons/maps.png" width="72" draggable="false">
+                <p>Maps</p>
+            </div>
+        </div>
+        <!-- use eventListener mousemove later on in js -->
+        <script src="../time.js"></script>
+        <script src="redirect.js"></script>
+    </body>
+</html>
