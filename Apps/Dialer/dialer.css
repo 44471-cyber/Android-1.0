@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    background-color: rgb(30, 30, 30);
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.tabs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: fixed;
+    gap: 5px;
+    top: 48px;
+    left: 5px;
+}
+.tabs nav {
+    background: linear-gradient(to bottom, grey, rgb(110, 110, 110));
+    padding: 30px 125.35px;
+    border-radius: 5px;
+}
+.tabs #current {
+    background: white;
+}
+.tabs nav a {
+    font-size: 2rem;
+    cursor: default;
+}
+.tabs #current a {
+    color: gray;
+}
